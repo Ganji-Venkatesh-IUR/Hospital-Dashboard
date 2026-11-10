@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Local data files; retain directory placeholders
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
